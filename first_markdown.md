@@ -25,3 +25,7 @@ My favorite quote is:
 #### This is a H4 heading
 ##### This is a H5 heading
 ###### This is a H6 heading
+
+* Markdown
++ HTML
+- XML
