@@ -1,3 +1,4 @@
+# make a merge conflict
 git fetch
 git merge origin/master
 git branch git_fetch
