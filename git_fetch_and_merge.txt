@@ -1,2 +1,9 @@
 git fetch
 git merge origin/master
+git branch git_fetch
+git checkout git_fetch
+edit "git_fetch_and_merge.txt"
+save
+git add git_fetch_and_merge.txt
+git commit
+git push origin git_fetch
