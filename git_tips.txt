@@ -1,0 +1,13 @@
+git log --oneline shows the list of commits in one line format.
+
+git log -S "keyword" displays a list of commits that contain the keyword in the message.
+
+git log --oneline --graph isplays a visual representation of how the branches and commits were created in order to help you make sense of your repository history.
+
+Git’s --amend flag is extremely useful when updating a commit, it allows you to correct mistakes and edit commits easily instead of creating a completely new one.
+
+To avoid creating a new one, you could create your changes, stage them with git add and then type the command git commit --amend to update your previous commit.
+
+git commit --amend --no-edit if you want to keep the same commit message, you can simply add the flag --no-edit
+
+
