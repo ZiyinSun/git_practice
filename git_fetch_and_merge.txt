@@ -1,9 +1,19 @@
+# fetch latest update from github
 git fetch
+# merge latest update from github to local repository
 git merge origin/master
+
+# create a new git branch named git_fetch
 git branch git_fetch
+# checkout to the new branch
 git checkout git_fetch
+
 edit "git_fetch_and_merge.txt"
 save
+
+# add to staging
 git add git_fetch_and_merge.txt
+# make a commit
 git commit
+# push the branch to github
 git push origin git_fetch
