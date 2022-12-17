@@ -1,0 +1,3 @@
+# command line method
+# copy a folder to another folder
+cp -r ./mids-datasci200-Course-Materials/week_03 ./course_practice
