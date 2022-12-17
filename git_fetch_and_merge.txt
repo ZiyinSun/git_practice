@@ -1,4 +1,5 @@
 # fetch latest update from github
+
 git fetch
 # merge latest update from github to local repository
 git merge origin/master
