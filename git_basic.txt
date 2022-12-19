@@ -1,0 +1,10 @@
+git clone
+
+git init
+git status
+git diff 
+git add filename.txt
+git commit -m"massage"
+
+git push origin master (or a branch name)
+
