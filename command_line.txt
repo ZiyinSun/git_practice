@@ -25,3 +25,5 @@ echo ""....." >> filename
 
 # see what is inside the file
 cat filename
+
+add more information
