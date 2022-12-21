@@ -8,3 +8,6 @@ git commit -m"massage"
 
 git push origin master (or a branch name)
 
+# how to delete a .git file
+rm -fr .git
+
