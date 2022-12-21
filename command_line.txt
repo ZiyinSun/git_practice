@@ -1,3 +1,27 @@
 # command line method
 # copy a folder to another folder
 cp -r ./mids-datasci200-Course-Materials/week_03 ./course_practice
+
+# build a file
+touch filename
+
+# remove a repository
+rm -r repository name
+
+# remove a file
+rm filename
+
+# cut a file and paste it to another folder or file
+mv ././filename ././folder/(or file)
+
+# use vim editor
+vim filename
+
+# write something into a file
+echo "......" > filename
+
+# append something into a file
+echo ""....." >> filename
+
+# see what is inside the file
+cat filename
