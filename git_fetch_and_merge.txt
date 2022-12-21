@@ -27,3 +27,6 @@ git branch -D branchname
 
 # delete a branch that has been merged to master locally
 git branch -d branchname
+
+# merge a branch locally
+git merge branchname

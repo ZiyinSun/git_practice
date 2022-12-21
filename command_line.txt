@@ -26,7 +26,5 @@ echo ""....." >> filename
 # see what is inside the file
 cat filename
 
-going to make something new
 
-add more information
 
