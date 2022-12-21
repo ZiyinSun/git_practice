@@ -27,3 +27,6 @@ echo ""....." >> filename
 cat filename
 
 going to make something new
+
+add more information
+
