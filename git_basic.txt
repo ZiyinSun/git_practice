@@ -11,3 +11,8 @@ git push origin master (or a branch name)
 # how to delete a .git file
 rm -fr .git
 
+# to rebase the branch 
+# As a golden rule, it’s important to 
+# only use rebase on a local branch that 
+# we’re working on individually.
+git rebase
