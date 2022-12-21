@@ -11,8 +11,31 @@ git push origin master (or a branch name)
 # how to delete a .git file
 rm -fr .git
 
-# to rebase the branch 
+# to rebase the branch _ look at the following
+# steps
+
+# first clone the remote repository
+git clone 
+
+# pull all branches from the reomte repository
+git checkout branchname 1
+git pull
+git checkout branchname 2
+git pull
+
+# see a fuller picture of commits
+# and progress made in the branches
+git log --graph --decorate --oneline --all
+
+# checkout the branch you are working on
+git checkout yourbranchname
+
 # As a golden rule, it’s important to 
-# only use rebase on a local branch that 
-# we’re working on individually.
-git rebase
+# only use rebase on a local your branch that 
+# you’re working on individually.
+git rebase main
+
+# after rebasing locally in a branch
+# when you push it back 
+# please use --force-with-lease
+git push -force-with-lease origin branchname
