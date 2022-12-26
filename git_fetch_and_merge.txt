@@ -24,7 +24,7 @@ git commit
 # push the branch to github
 git push origin git_fetch
 
-# delete a branch that has been merged to master locally
+# delete a branch that has not been merged to master locally
 git branch -D branchname
 
 # delete a branch that has been merged to master locally
