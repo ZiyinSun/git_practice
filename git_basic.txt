@@ -8,6 +8,15 @@ git commit -m"massage"
 
 git push origin master (or a branch name)
 
+# Discards changes in the working directory
+git checkout HEAD filename
+
+# Unstage file changes in the staging area
+git reset HEAD filename
+
+# Reset to a previous commit in your commit history
+git reset commit_SHA(7 digits)
+
 # how to delete a .git file
 rm -fr .git
 
@@ -39,3 +48,4 @@ git rebase main
 # when you push it back 
 # please use --force-with-lease
 git push -force-with-lease origin branchname
+
