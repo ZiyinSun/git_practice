@@ -51,3 +51,7 @@ git push -force-with-lease origin branchname
 
 # adding a directory name to .gitignore
 echo "node_modules/" .gitignore
+
+# once you add a file or folder to remote github
+# repository, you can not ignore it.
+
