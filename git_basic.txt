@@ -49,3 +49,5 @@ git rebase main
 # please use --force-with-lease
 git push -force-with-lease origin branchname
 
+# adding a directory name to .gitignore
+echo "node_modules/" .gitignore
