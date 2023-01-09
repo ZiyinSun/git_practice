@@ -55,10 +55,12 @@ echo "node_modules/" .gitignore
 # once you add a file or folder to remote github
 # repository, you can not ignore it.
 
+
 # show information of the git remote depository
 git remote show origin
 # or only see the fetch and push information
 git remote -v
 
-#test merge issues
+
+
 
