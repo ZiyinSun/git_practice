@@ -32,4 +32,5 @@ git branch -d branchname
 
 # merge a branch locally, don't do this in teamwork
 # only work on your local branch when doing your work
+# change to the master branch
 git merge branchname
