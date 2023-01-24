@@ -2,6 +2,9 @@
 # copy a folder to another folder
 cp -r ./mids-datasci200-Course-Materials/week_03 ./course_practice
 
+# copy a file to another folder
+cp ./course_practice/week_03/HW_03/HW_Unit_03.ipynb ./mids-datasci200-spring23-Ziyin-SunREPO/
+
 # build a file
 touch filename
 
