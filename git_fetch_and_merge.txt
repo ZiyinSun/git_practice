@@ -36,3 +36,5 @@ git branch -d branchname
 # change to master and merge the branch
 git branch master
 git merge branchname
+
+# use Pull request in remote repository to merge branch to master
