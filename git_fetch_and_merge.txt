@@ -33,4 +33,8 @@ git branch -d branchname
 # merge a branch locally, don't do this in teamwork
 # only work on your local branch when doing your work
 # change to the master branch and merge locally
+# change to master and merge the branch
+git branch master
 git merge branchname
+
+# use Pull request in remote repository to merge branch to master
