@@ -20,6 +20,13 @@ mv ././filename ././folder/(or file)
 # use vim editor
 vim filename
 
+# how to use vim editor
+click "i" to activate insert mode
+type something to add more information in the file
+click "Esc" to quit insert mode
+type :wq to write-save-quit vim editor
+
+
 # write something into a file
 echo "......" > filename
 
