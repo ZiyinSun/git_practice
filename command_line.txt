@@ -5,7 +5,7 @@ cp -r ./mids-datasci200-Course-Materials/week_03 ./course_practice
 # copy a file to another folder
 cp ./course_practice/week_03/HW_03/HW_Unit_03.ipynb ./mids-datasci200-spring23-Ziyin-SunREPO/
 cp ./course_practice/week_06/HW_06/scrabble.py ./mids-datasci200-spring23-Ziyin-SunREPO/
-cp ./course_practice/week_03/HW_06/wordscore.py ./mids-datasci200-spring23-Ziyin-SunREPO/
+cp ./course_practice/week_06/HW_06/wordscore.py ./mids-datasci200-spring23-Ziyin-SunREPO/
 
 # build a file
 touch filename
