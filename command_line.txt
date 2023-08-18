@@ -10,6 +10,9 @@ cp ./course_practice/week_06/HW_06/wordscore.py ./mids-datasci200-spring23-Ziyin
 # build a file
 touch filename
 
+# build a repository (folder)
+mkdir repository name
+
 # remove a repository
 rm -r repository name
 
@@ -33,7 +36,7 @@ type :wq to write-save-quit vim editor
 echo "......" > filename
 
 # append something into a file
-echo ""....." >> filename
+echo "....." >> filename
 
 # see what is inside the file
 cat filename
