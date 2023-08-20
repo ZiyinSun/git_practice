@@ -1,0 +1,17 @@
+# create a conda environments with python version 3.7 and scipy = 1.5.0
+conda create -n myenv4 python=3.7 scipy=1.5.0
+
+# check the list of all python environments
+conda env list
+
+# activate a python environment
+conda activate myenv4
+
+# install a python library
+conda install pandas
+
+# generate a requirement file
+conda list -e > requirements.txt
+
+# see what is inside the requirements.txt file
+cat requirement.txt
