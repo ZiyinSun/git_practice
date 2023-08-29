@@ -41,5 +41,12 @@ echo "....." >> filename
 # see what is inside the file
 cat filename
 
+# create a "hidden" file, begin with a dot "." character
+touch .myhiddenfile.txt
 
+# create a "hidden" directory named "myhiddendir"
+mkdir .myhiddendir
+
+# To view hidden files and directories, you can use the "-a" option with the "ls" command
+ls -a 
 
