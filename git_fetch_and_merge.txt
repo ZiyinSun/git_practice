@@ -30,6 +30,9 @@ git branch -D branchname
 # delete a branch that has been merged to master locally
 git branch -d branchname
 
+# After deleting a branch locally, you can use git push to reflect the change in your remote GitHub repository
+git push origin --delete branch-name
+
 # merge a branch locally, don't do this in teamwork
 # only work on your local branch when doing your work
 # change to the master branch and merge locally
